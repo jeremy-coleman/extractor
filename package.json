@@ -1,0 +1,36 @@
+{
+  "name": "app-template",
+  "private": true,
+  "scripts": {
+    "rollit": "rollup -c rollup.config.js",
+    "start": "gulp start",
+    "extract":"rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "three":"0.132.0",
+    "@babylonjs/core":"5.0.0-alpha.40"
+  },
+  "devDependencies": {
+    "rollup-plugin-glsl-optimize":"1.0.3",
+    "rollup-plugin-glslify":"1.2.0",
+    "glslify":"7.1.1",
+    "rollup-plugin-external-globals":"0.6.1",
+    "tslib":"2.3.1",
+    "@types/three":"0.131.0",
+    "@rollup/pluginutils":"4.1.1",
+    "@rollup/plugin-node-resolve":"13.0.4",
+    "@types/node": "16.7.2",
+    "gulp": "4.0.2",
+    "gulp-concat": "2.6.1",
+    "gulp-jscc": "^1.2.0",
+    "gulp-livereload": "4.0.2",
+    "gulp-rename": "2.0.0",
+    "gulp-typescript": "6.0.0-alpha.1",
+    "gulp-flatten":"0.4.0",
+    "lodash": "4.17.21",
+    "rollup": "2.56.3",
+    "sucrase": "3.20.1",
+    "typescript": "4.4.2",
+    "undertaker-forward-reference": "1.0.2"
+  }
+}
